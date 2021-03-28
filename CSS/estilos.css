@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    color:black;
+}
+
+html,body, .main-container, nav, footer, section{
+    text-align: center;
+}
+
+html, body{
+    background-color: #5cfff7;
+}
+
+.main-container{
+    position: absolute;
+    border:6px solid #0048ff;
+    border-radius: 10px;
+    margin: 1rem;
+    background-color: rgb(107, 196, 255);
+    height: 900px;
+}
+
+nav, section, footer, article, aside{
+    border: 4.5px solid #ad89ff;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+nav{
+    position: relative;
+    width: 80%;
+    left: 15%;
+}
+
+article{
+    position: absolute;
+    width: 76%;
+    left: 17%;
+    height: 70%;
+    background-image: url("../imagenesPA/hospital2.jpg"); 
+}
+
+aside{
+    position: relative;
+    width: 10%;
+    height: 80%;
+    top: -15%;
+    background-image: url("../imagenesPA/patronaraña.jpg");
+}
+
+section{
+    position: absolute;
+    width: 96%;
+    height: 90%;
+    background-image: url("../imagenesPA/fondoblanco.webp");
+}
+
+footer{
+    position: absolute;
+    height: 10%;
+    width: 96%;
+    bottom: -18%;
+    background-image: url("../imagenesPA/pattern\(1\).png");
+}
+
+.Spider{
+    position: absolute;
+    height: 90px;
+    bottom: 18%;
+}
+
+.cuadro1{
+    position: relative;
+    width: 22%;
+    height: 30px;
+    display: block;
+    background-image: url("../imagenesPA/hospital2.jpg");
+}
+.cuadro2{
+    position: relative;
+    width: 90px;
+    height: 30px;
+    display: block;
+    background-image: url("../imagenesPA/hospital2.jpg");
+}
+.cuadro3{
+    position: relative;
+    width: 28%;
+    height: 30px;
+    display: block;
+    background-image: url("../imagenesPA/hospital2.jpg");
+}
+.escribir2{
+    position: relative;
+    padding-left:  5px;
+}
+.escribir{
+    position: absolute;
+    left: 50%;
+    width: 60vh;
+    height: 250px;
+}
+.botones{
+position: absolute;
+background-image: url("../imagenesPA/nieve.gif");
+left: 15%;
+border:        1px solid #556699;
+border-radius: 11px;
+box-shadow:    1px 0 #444444;
+color:         #000000;
+display:       inline-block;
+font:          italic bold 18px/1 "Open Sans", sans-serif;
+text-align:    center;
+}
+.botones2{
+    position: absolute;
+    background-image: url("../imagenesPA/nieve.gif");
+left: 30%;
+border:        1px solid #556699;
+border-radius: 11px;
+box-shadow:    1px 0 #444444;
+color:         #000000;
+display:       inline-block;
+font:          italic bold 18px/1 "Open Sans", sans-serif;
+text-align:    center;
+}
+.botones3{
+    position: absolute;
+background-image: url("../imagenesPA/nieve.gif");
+top: 80%;
+left: 18%;
+border:        1px solid #556699;
+border-radius: 11px;
+box-shadow:    1px 0 #444444;
+color:         #000000;
+display:       inline-block;
+font:          italic bold 18px/1 "Open Sans", sans-serif;
+text-align:    center;
+}
+.botones4_1{
+    position: relative;
+    top: 5%;
+    background: transparent;
+    background:    transparent;
+    border:        1px solid #556699;
+    border-radius: 11px;
+    box-shadow:    1px 0 #444444;
+    color:         #000000;
+    display: block;
+    font:          italic bold 18px/1 "Open Sans", sans-serif;
+    text-align:    center;
+}
+.botones4{
+    position: relative;
+    top: 25%;
+    background: transparent;
+    background:    transparent;
+    border:        1px solid #556699;
+    border-radius: 11px;
+    box-shadow:    1px 0 #444444;
+    color:         #000000;
+    display: block;
+    font:          italic bold 18px/1 "Open Sans", sans-serif;
+    text-align:    center;
+}
+.botones5{
+    position: relative;
+    top: 45%;
+    background: transparent;
+    background:    transparent;
+    border:        1px solid #556699;
+    border-radius: 11px;
+    box-shadow:    1px 0 #444444;
+    color:         #000000;
+    display: block;
+    font:          italic bold 18px/1 "Open Sans", sans-serif;
+    text-align:    center;
+}
+.botones6{
+    position: relative;
+    top: 65%;
+    background: transparent;
+    background:    transparent;
+    border:        1px solid #556699;
+    border-radius: 11px;
+    box-shadow:    1px 0 #444444;
+    color:         #000000;
+    display: block;
+    font:          italic bold 18px/1 "Open Sans", sans-serif;
+    text-align:    center;
+}
+.texto{
+    background-image: url("../imagenesPA/nieve.gif");
+}
+.texto1{
+    background-image: url("../imagenesPA/nieve.gif");
+    height: 230px;
+}

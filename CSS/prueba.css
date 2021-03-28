@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    font-family: italic bold 18px/1 "Open Sans", sans-serif;
+}
+
+body{
+    background-color: darkcyan;
+}
+
+.menu{
+    float: inline-start;
+    line-height: 100px;
+}
+.menu span{
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    text-decoration: black;
+    color: black;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 50px;
+}
+.menu span:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.text{
+    padding: 50px;
+    align-items: center;
+}
+
+p{
+    font-size: 30px;
+}
+
+.a{
+    padding: 70px;
+}
+
+.style_prevu_kit{
+    display: inline-block;
+    border: 0;
+    width: 190px;
+    height: 210px;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+
+}
+
+.style_prevu_kit:hover{
+    box-shadow: 0px 0px 150px cyan;
+    z-index: 3;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}

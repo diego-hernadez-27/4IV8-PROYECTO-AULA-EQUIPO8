@@ -1,0 +1,177 @@
+*{
+    font-family: 'calibri', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    padding-bottom: 15px;
+    background: rgb(116, 208, 214);
+
+    
+}
+
+body{
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(255, 255, 255,0.5);
+    background-size:100% ;
+    
+}
+.lab{
+
+    position: absolute;
+    right:200px;
+    top: 80px;
+    width: 250px;
+    align-content: center;
+}
+
+.rin{
+    position: absolute;
+    right:900px;
+    top: -30px;
+    width: 400px;
+    align-content: center;
+    
+}
+.cero{
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    font-style: italic;
+
+}
+
+.uno{
+    text-align: center;
+}
+.dos{
+    text-align: center;
+}
+
+.spider{
+    width: 100%;
+    align-items: center;
+}
+.img{
+    
+    right:580px;
+    position: absolute;
+    width: 200px;
+    align-content: center;
+    
+}
+
+.anime{
+    position: absolute;
+    right:1000px;
+    width: 200px;
+    align-content: right;
+
+}
+.mi{
+    text-align: center;
+}
+.in{
+    text-align: center;
+}
+.on{
+    text-align: center;
+}
+.un{
+    text-align: center;
+}
+.pin{
+    text-align: center;
+}
+.fi{
+    text-align: center;
+}
+
+.libro{
+    margin: 100%;
+    width: 50px;
+}
+.or{
+    margin: 100%;
+    width: 50px;   
+}
+.raton{
+    margin: 100%;
+    width: 50px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu li {
+    margin-right: 80px;
+  }
+  
+  .menu a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    left: 45px;
+  }
+  
+  .menu a span {
+    transition: transform 0.2s ease-out;
+  }
+  
+  .menu a span:first-child {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .menu a span:last-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+  }
+  
+  .menu i {
+    font-size: 30px;
+  }
+  
+  .menu a:hover span:first-child {
+    transform: translateY(100%);
+  }
+  
+  .menu a:hover span:last-child,
+  .menu[data-animation] a:hover span:last-child {
+    transform: none;
+  }
+
+
+
+.menu[data-animation="to-top"] a span:last-child {
+    transform: translateY(200%);
+  }
+  
+  .menu[data-animation="to-top"] a:hover span:first-child {
+    transform: translateY(-200%);
+  }
+  
+  .menu[data-animation="to-right"] a span:last-child {
+    transform: translateX(-200%);
+  }
+  
+  .menu[data-animation="to-right"] a:hover span:first-child {
+    transform: translateX(200%);
+  }
+  
+  .menu[data-animation="to-left"] a span:last-child {
+    transform: translateX(200%);
+  }
+  
+  .menu[data-animation="to-left"] a:hover span:first-child {
+    transform: translateX(-200%);
+  }
+
+  

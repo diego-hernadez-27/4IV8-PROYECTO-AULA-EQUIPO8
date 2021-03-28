@@ -35,30 +35,37 @@ body{
 .cero{
     text-align: center;
     align-items: center;
+    align-content: center;
     font-size: 50px;
     font-style: italic;
+    border-radius: 20px;
+    border: solid rgb(72, 65, 177);
 
 }
 
 .uno{
     text-align: center;
+    font-size: larger;
 }
 .dos{
     text-align: center;
+    font-size:larger;
 }
-.titulo{
-    display: flex;
+
+.img{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 12rem;
+    height: 12rem;
+    padding: 20px;
+    border: solid 5px #000000;
+    background: white;
 }
 .spider{
     width: 100%;
-    align-items: center;
+    align-items:center;
 }
-.img{
-    
-    right:580px;
-    position: absolute;
-    width: 200px;
-    align-content: center;
     
 }
 
@@ -68,6 +75,9 @@ body{
     width: 200px;
     align-content: right;
 
+}
+.proyectos{
+  text-align: center;
 }
 .mi{
     text-align: center;

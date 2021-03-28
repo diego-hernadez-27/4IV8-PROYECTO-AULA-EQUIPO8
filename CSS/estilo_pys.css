@@ -101,6 +101,7 @@ img.hola{
 .texto1{
     background-image: url("../imagenesPA/nieve.gif");
     height: 230px;
+<<<<<<< HEAD
 }
 
 .botones6{
@@ -115,4 +116,6 @@ img.hola{
     display: block;
     font:          italic bold 18px/1 "Open Sans", sans-serif;
     text-align:    center;
+=======
+>>>>>>> 34fc5ebe1aa349c23c1f781dfb8063fc0efc1057
 }

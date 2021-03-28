@@ -180,7 +180,11 @@ text-align:    center;
 }
 .botones6{
     position: relative;
+<<<<<<< HEAD
     top: 10%;
+=======
+    top: 65%;
+>>>>>>> 34fc5ebe1aa349c23c1f781dfb8063fc0efc1057
     background: transparent;
     background:    transparent;
     border:        1px solid #556699;

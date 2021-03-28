@@ -46,7 +46,9 @@ body{
 .dos{
     text-align: center;
 }
-
+.titulo{
+    display: flex;
+}
 .spider{
     width: 100%;
     align-items: center;

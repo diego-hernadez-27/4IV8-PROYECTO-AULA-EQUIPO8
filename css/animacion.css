@@ -1,34 +1,83 @@
+
+
+
 *{
-    font-family: 'arial', sans-serif;
-    font-size: 20px;
-    color: #000000;
-    padding-bottom: 15px;
-    
+    padding: 0;
+    margin: 0;
+    color:black;
 }
-body{
-    width: 1000px;
-    margin: auto;
+
+html,body, .main-container, nav, footer, section{
+    text-align: center;
+}
+
+html, body{
     background-color: rgb(255, 255, 255,0.5);
     background-image:url(../img/enfer.jpg) ;
-    background-size:100% ;
-    
-}
-.lab{
-
-    position: absolute;
-    right:200px;
-    top: 80px;
-    width: 250px;
-    align-content: center;
 }
 
-.rin{
-    position: absolute;
-    right:900px;
-    top: -30px;
-    width: 400px;
-    align-content: center;
+.main-container{
+  
+    height: 1500px;
+    border-radius: 10px;
+    margin: 1rem;
+   
+  
+}
+
+
+
+nav, section, footer{
+    border: 4.5px solid rgb(255, 255, 255,0.5)f;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 1rem;
+}
+aside{
+    border: 2px solid #3186f5;
+    margin: 9px;
+    border-radius: 6px;
+    padding: 1rem;
     
+}
+
+nav{
+    position: relative;
+    width: 94%;
+    left: 0%;
+    height: 15%;
+}
+
+article{
+    position: absolute;
+    width: 80%;
+    left: 16%;
+    height: 51%;
+    border:2px solid  #3186f5;
+    border-radius: 5px;
+}
+
+aside{
+    position: relative;
+    width: 10%;
+    height: 50%;
+    top: 0%;
+
+}
+
+section{
+    position: absolute;
+    width: 96%;
+    height: 1510px;
+  
+}
+
+footer{
+    position: absolute;
+    height: 100px;
+    width: 1223px;
+    bottom: -105%;
+    left: 28px;
 }
 .cero{
     text-align: center;
@@ -43,52 +92,21 @@ body{
 .dos{
     text-align: center;
 }
-.img{
-    position: absolute;
-    right:580px;
-    
-    width: 200px;
-    align-content: center;
-    
-}
 
-.anime{
-    position: absolute;
-    right:1000px;
-    width: 200px;
-    align-content: right;
 
-}
-.mi{
-    text-align: center;
-}
-.in{
-    text-align: center;
-}
-.on{
-    text-align: center;
-}
-.un{
-    text-align: center;
-}
-.pin{
-    text-align: center;
-}
-.fi{
-    text-align: center;
-}
+
 
 .libro{
     margin: 100%;
-    width: 50px;
+    width: 38px;
 }
 .or{
     margin: 100%;
-    width: 50px;   
+    width: 40px;   
 }
 .raton{
     margin: 100%;
-    width: 50px;
+    width: 36px;
 }
 .menu {
     display: flex;
@@ -164,5 +182,60 @@ body{
   .menu[data-animation="to-left"] a:hover span:first-child {
     transform: translateX(-100%);
   }
-
   
+.rin{
+    position: absolute;
+    right:900px;
+    top: -50px;
+    width: 200px;
+    align-content: center;
+    
+}
+
+ .lab{
+    position: absolute;
+    right:200px;
+    top: -30px;
+    width: 200px;
+    align-content: center;
+ }
+
+ .img{
+    position: absolute;
+    right:520px;
+    top: 100px;
+    width: 200px;
+    align-content: center;
+    
+}
+
+
+.anime{
+    position: absolute;
+    right:1000px;
+    width: 200px;
+    align-content: right;
+
+}
+.rem1{
+
+    position: absolute;
+    right:100px;
+    width: 200px;
+    align-content: right;
+    
+    
+}
+
+.unu{
+    position: absolute;
+    right:-20px;
+    width: 200px;
+    align-content: right;
+    
+}
+
+
+
+
+

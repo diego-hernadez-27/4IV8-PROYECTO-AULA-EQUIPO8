@@ -1,11 +1,11 @@
-LO DE HTML:
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba</title>
+    <title>CONTACTANOS</title>
     <link rel="stylesheet" href="./CSS/estilos.css">
 </head>
 <body>
@@ -17,11 +17,14 @@ LO DE HTML:
         <section>
          
         <nav>
-            <H1>TITULO</H1>
+            <H1>CONTACTANOS<marquee direction="right">SPIDERBYTE</marquee></H1>
         </nav>
 
         <article>
-            <h3>La información</h3>
+            <h3>Contactanos para poder resolver sus dudas con respecto a nuestra empresa o 
+                servicio, por ello, necesitamos que llenes este formulario para que su experiencia 
+                sea la mejor.
+            </h3>
             <script language="JavaScript" type="text/JavaScript"
             src="./JS/validar.js" ></script>
         </head>
@@ -29,37 +32,57 @@ LO DE HTML:
         
             <form method="GET" name="formulario"
             onsubmit="return validar(this)" action="formulario.html">
-                Nombre: 
+            <nav class="escribir">
+                <div align="center"> 
+                Mensaje:
                 <br>
-                <input type="text" name="nombre" size="20" >
+                <input type="text" class="texto1" name="mensaje" size="50">
                 <br>
-                telefono:
+                </div>
+            </nav>
+            <nav class="cuadro1">
+                <div align="left">    
+            Nombre: 
                 <br>
-                <input type="text" name="telefono" size="30" >
+                <input type="text" class="texto" name="nombre" size="25" >
                 <br>
-                mensaje:
+                </div>
+            </nav>
+            <nav class="cuadro2">
+                <div align="left"> 
+            Telefono:
                 <br>
-                <input type="text" name="mensaje" size="30">
+                <input type="text" class="texto" name="telefono" size="10" >
                 <br>
-                Email:
+                </div>
+            </nav>
+            <nav class="cuadro3">
+                <div align="left"> 
+            Email:
                 <br>
-                <input type="text" name="email" size="30">
+                <input type="text" class="texto" name="email" size="35">
                 <br>
-                <input type="submit" value="Enviar datos" name="enviar" >
-                <input type="reset" value="Borrar Formulario" name="borrar" >
+                </div>
+            </nav>
+                <input type="submit" value="Enviar datos" class="botones" name="enviar" >
+                <input type="reset" value="Borrar Formulario" class="botones2" name="borrar" >
                 <br>
-                <a href="index.html"> Regresar al Menu Principal</a>
+                <a href="index.html"><p class="botones3"> Regresar al Menu Principal</a>
             </form>
         </article>
 
         <aside>
-            Los botones de regreso
+            <p class="botones4_1">REGRESA A:</p>
+            <p class="botones4"><a href="index.html">PAGINA PRINCIPAL</a></p>
+            <p class="botones5"><a href="tools.html">TOOLS</a></p>
+            <p class="botones6"><a href="casosdeexito.html">CASOS DE EXITO</a></p>
+            
         </aside>
 
         </section>
 
         <footer>
-            <h4>NOMBRE DE LA EMPRESA Y LOGO</h4>
+            <h4><marquee direction="right"><img src="imagenesPA/Spider.png" class="Spider"></marquee></h4>
         </footer>
 
     </div>

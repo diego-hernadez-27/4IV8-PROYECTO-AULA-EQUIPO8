@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    color:black;
+}
+
+html,body, .main-container, nav, footer, section{
+    text-align: center;
+}
+
+html, body{
+    background-color: #5cfff7;
+}
+
+.main-container{
+    position: absolute;
+    border:6px solid #0048ff;
+    border-radius: 10px;
+    margin: 1rem;
+    background-color: rgb(107, 196, 255);
+    height: 900px;
+}
+
+nav, section, footer, article, aside{
+    border: 4.5px solid #ad89ff;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.principal{
+    position: absolute;
+    width: 96%;
+    height: 120%;
+}
+
+nav{
+    position: relative;
+    width: 80%;
+    left: 15%;
+}
+
+article{
+    position: absolute;
+    width: 76%;
+    left: 17%;
+    height: 75%;
+    background-image: url("../imagenesPA/hospital2.jpg"); 
+}
+
+aside{
+    position: relative;
+    width: 10%;
+    height: 80%;
+    bottom: 2%;
+    background-image: url("../imagenesPA/patronaraña.jpg");
+}
+
+section{
+    background-image: url("../imagenesPA/fondoblanco.webp");
+}
+
+footer{
+    position: absolute;
+    height: 10%;
+    width: 96%;
+    top: 130%;
+    background-image: url("../imagenesPA/pattern\(1\).png");
+}
+
+.Spider{
+    position: absolute;
+    height: 90px;
+    bottom: 18%;
+}
+
+img.hola{
+    position: absolute;
+    left: 5%;
+}
+
+.primero{
+    position: absolute;
+    height: 26%;
+    right: 0.68%;
+    width: 93%;
+}
+
+.segundo{
+    position: absolute;
+    bottom: 1%;
+    position: absolute;
+    height: 52%;
+    right: 0.68%;
+    width: 93%;
+}
+
+.texto{
+    background-image: url("../imagenesPA/nieve.gif");
+}
+.texto1{
+    background-image: url("../imagenesPA/nieve.gif");
+    height: 230px;
+}
